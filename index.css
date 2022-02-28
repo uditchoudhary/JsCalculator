@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  top: 10vh;
+  margin: auto;
+  border: 1px solid black;
+  width: 400px;
+}
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.button {
+  width: 100px;
+  height: 80px;
+}
+
+#calculation {
+  height: 60px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+  border: 0.5px red dotted;
+  margin: 2%;
+}
